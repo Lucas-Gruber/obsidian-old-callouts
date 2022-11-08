@@ -1,6 +1,9 @@
 <div align="center">
-      <h1> <img src="https://i.redd.it/r3qk7csmi3z61.png" width="80px"><br/>Old Callouts for Obsidian</h1>
-     </div>
+  <h1> <img src="https://i.redd.it/r3qk7csmi3z61.png" width="80px">
+  <br/>
+    Old Callouts for Obsidian
+  </h1>
+</div>
 
 # Description
 
@@ -12,9 +15,11 @@ Do it how you like it.
 
 You can either replace the new ones to the old ones, or just ad the old ones as extra callouts!
 
-# Screenshots
+# Showcase
 
- <img src="./.media/comparison.png">
+<div align="center">
+  <img src="./.media/comparison.png">
+</div>
 
 # How to use:
 
@@ -26,4 +31,4 @@ Simply copy the `old-callouts-extra.css` file in the .obsidian/snippets folder i
 
 do exact the same but with the file: `old-callouts.css`
 
-<!-- </> with 💛 by Lucas Gruber -->
+< / > with 💛 by Lucas Gruber
