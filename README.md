@@ -31,6 +31,7 @@ do exact the same but with the file: `old-callouts.css`
   <img src="./.media/comparison.png">
 </div>
 
+<br/>
 <div align="center">
   < / > with 💛 by Lucas Gruber
 </div>
