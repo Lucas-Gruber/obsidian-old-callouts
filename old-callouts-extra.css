@@ -1,0 +1,220 @@
+.callout[data-callout^="o-"] {
+  --callout-color: 68, 138, 255;
+  --callout-icon: lucide-pencil;
+  --callout-border-width:  0 0 0 4px;
+  --callout-border-opacity:  1;
+  --callout-radius: 0;
+  --callout-padding: 0;
+  --callout-title-padding:  var(--size-4-4) var(--size-4-4);
+  --callout-content-padding:  var(--size-4-2) var(--size-4-4);
+}
+.callout[data-callout^="o-"] .callout-title-inner {
+  color: var(--text-normal);
+}
+.callout[data-callout^="o-"] .callout-content {
+  background-color: var(--background-primary-alt)
+}
+
+.callout[data-callout="o-abstract"], .callout[data-callout="o-summary"], .callout[data-callout="o-tldr"] {
+  --callout-color: 0, 176, 255;
+  --callout-icon: lucide-clipboard-list;
+  --callout-border-width:  0 0 0 4px;
+  --callout-border-opacity:  1;
+  --callout-radius: 0;
+  --callout-padding: 0;
+  --callout-title-padding:  var(--size-4-4) var(--size-4-4);
+  --callout-content-padding:  var(--size-4-2) var(--size-4-4);
+}
+.callout[data-callout="o-abstract"] .callout-title-inner, .callout[data-callout="o-summary"] .callout-title-inner, .callout[data-callout="o-tldr"] .callout-title-inner {
+  color: var(--text-normal);
+}
+.callout[data-callout="o-abstract"] .callout-content, .callout[data-callout="o-summary"] .callout-content, .callout[data-callout="o-tldr"] .callout-content {
+  background-color: var(--background-primary-alt)
+}
+
+.callout[data-callout="o-info"] {
+  --callout-color: 0, 184, 212;
+  --callout-icon: lucide-info;
+  --callout-border-width:  0 0 0 4px;
+  --callout-border-opacity:  1;
+  --callout-radius: 0;
+  --callout-padding: 0;
+  --callout-title-padding:  var(--size-4-4) var(--size-4-4);
+  --callout-content-padding:  var(--size-4-2) var(--size-4-4);
+}
+.callout[data-callout="o-info"] .callout-title-inner {
+  color: var(--text-normal);
+}
+.callout[data-callout="o-info"] .callout-content {
+  background-color: var(--background-primary-alt)
+}
+
+.callout[data-callout="o-todo"] {
+  --callout-color: 0, 184, 212;
+  --callout-icon: lucide-check-circle-2;
+  --callout-border-width:  0 0 0 4px;
+  --callout-border-opacity:  1;
+  --callout-radius: 0;
+  --callout-padding: 0;
+  --callout-title-padding:  var(--size-4-4) var(--size-4-4);
+  --callout-content-padding:  var(--size-4-2) var(--size-4-4);
+}
+.callout[data-callout="o-todo"] .callout-title-inner {
+  color: var(--text-normal);
+}
+.callout[data-callout="o-todo"] .callout-content {
+  background-color: var(--background-primary-alt)
+}
+
+.callout[data-callout="o-tip"], .callout[data-callout="o-hint"], .callout[data-callout="o-important"] {
+  --callout-color: 0, 191, 165;
+  --callout-icon: lucide-flame;
+  --callout-border-width:  0 0 0 4px;
+  --callout-border-opacity:  1;
+  --callout-radius: 0;
+  --callout-padding: 0;
+  --callout-title-padding:  var(--size-4-4) var(--size-4-4);
+  --callout-content-padding:  var(--size-4-2) var(--size-4-4);
+}
+.callout[data-callout="o-tip"] .callout-title-inner, .callout[data-callout="o-hint"] .callout-title-inner, .callout[data-callout="o-important"] .callout-title-inner {
+  color: var(--text-normal);
+}
+.callout[data-callout="o-tip"] .callout-content, .callout[data-callout="o-hint"] .callout-content, .callout[data-callout="o-important"] .callout-content {
+  background-color: var(--background-primary-alt)
+}
+
+.callout[data-callout="o-success"], .callout[data-callout="o-check"], .callout[data-callout="o-done"] {
+  --callout-color: 0, 200, 83;
+  --callout-icon: lucide-check;
+  --callout-border-width:  0 0 0 4px;
+  --callout-border-opacity:  1;
+  --callout-radius: 0;
+  --callout-padding: 0;
+  --callout-title-padding:  var(--size-4-4) var(--size-4-4);
+  --callout-content-padding:  var(--size-4-2) var(--size-4-4);
+}
+.callout[data-callout="o-success"] .callout-title-inner, .callout[data-callout="o-check"] .callout-title-inner, .callout[data-callout="o-done"] .callout-title-inner {
+  color: var(--text-normal);
+}
+.callout[data-callout="o-success"] .callout-content, .callout[data-callout="o-check"] .callout-content, .callout[data-callout="o-done"] .callout-content {
+  background-color: var(--background-primary-alt)
+}
+
+.callout[data-callout="o-question"], .callout[data-callout="o-help"], .callout[data-callout="o-faq"] {
+  --callout-color: 100, 221, 23;
+  --callout-icon: help-circle;
+  --callout-border-width:  0 0 0 4px;
+  --callout-border-opacity:  1;
+  --callout-radius: 0;
+  --callout-padding: 0;
+  --callout-title-padding:  var(--size-4-4) var(--size-4-4);
+  --callout-content-padding:  var(--size-4-2) var(--size-4-4);
+}
+.callout[data-callout="o-question"] .callout-title-inner, .callout[data-callout="o-help"] .callout-title-inner, .callout[data-callout="o-faq"] .callout-title-inner {
+  color: var(--text-normal);
+}
+.callout[data-callout="o-question"] .callout-content, .callout[data-callout="o-help"] .callout-content, .callout[data-callout="o-faq"] .callout-content {
+  background-color: var(--background-primary-alt)
+}
+
+.callout[data-callout="o-warning"], .callout[data-callout="o-caution"], .callout[data-callout="o-attention"] {
+  --callout-color: 255, 145, 0;
+  --callout-icon: lucide-alert-triangle;
+  --callout-border-width:  0 0 0 4px;
+  --callout-border-opacity:  1;
+  --callout-radius: 0;
+  --callout-padding: 0;
+  --callout-title-padding:  var(--size-4-4) var(--size-4-4);
+  --callout-content-padding:  var(--size-4-2) var(--size-4-4);
+}
+.callout[data-callout="o-warning"] .callout-title-inner, .callout[data-callout="o-caution"] .callout-title-inner, .callout[data-callout="o-attention"] .callout-title-inner {
+  color: var(--text-normal);
+}
+.callout[data-callout="o-warning"] .callout-content, .callout[data-callout="o-caution"] .callout-content, .callout[data-callout="o-attention"] .callout-content {
+  background-color: var(--background-primary-alt)
+}
+
+.callout[data-callout="o-failure"], .callout[data-callout="o-fail"], .callout[data-callout="o-missing"] {
+  --callout-color: 255, 82, 82;
+  --callout-icon: lucide-x;
+  --callout-border-width:  0 0 0 4px;
+  --callout-border-opacity:  1;
+  --callout-radius: 0;
+  --callout-padding: 0;
+  --callout-title-padding:  var(--size-4-4) var(--size-4-4);
+  --callout-content-padding:  var(--size-4-2) var(--size-4-4);
+}
+.callout[data-callout="o-failure"] .callout-title-inner, .callout[data-callout="o-fail"] .callout-title-inner, .callout[data-callout="o-missing"] .callout-title-inner {
+  color: var(--text-normal);
+}
+.callout[data-callout="o-failure"] .callout-content, .callout[data-callout="o-fail"] .callout-content, .callout[data-callout="o-missing"] .callout-content {
+  background-color: var(--background-primary-alt)
+}
+
+.callout[data-callout="o-danger"], .callout[data-callout="o-error"] {
+  --callout-color: 255, 23 ,68;
+  --callout-icon: lucide-zap;
+  --callout-border-width:  0 0 0 4px;
+  --callout-border-opacity:  1;
+  --callout-radius: 0;
+  --callout-padding: 0;
+  --callout-title-padding:  var(--size-4-4) var(--size-4-4);
+  --callout-content-padding:  var(--size-4-2) var(--size-4-4);
+}
+.callout[data-callout="o-danger"] .callout-title-inner, .callout[data-callout="o-error"] .callout-title-inner {
+  color: var(--text-normal);
+}
+.callout[data-callout="o-danger"] .callout-content, .callout[data-callout="o-error"] .callout-content {
+  background-color: var(--background-primary-alt)
+}
+
+.callout[data-callout="o-bug"] {
+  --callout-color: 245, 0, 87;
+  --callout-icon: lucide-bug;
+  --callout-border-width:  0 0 0 4px;
+  --callout-border-opacity:  1;
+  --callout-radius: 0;
+  --callout-padding: 0;
+  --callout-title-padding:  var(--size-4-4) var(--size-4-4);
+  --callout-content-padding:  var(--size-4-2) var(--size-4-4);
+}
+.callout[data-callout="o-bug"] .callout-title-inner {
+  color: var(--text-normal);
+}
+.callout[data-callout="o-bug"] .callout-content {
+  background-color: var(--background-primary-alt)
+}
+
+.callout[data-callout="o-example"] {
+  --callout-color: 124, 77, 255;
+  --callout-icon: lucide-list;
+  --callout-border-width:  0 0 0 4px;
+  --callout-border-opacity:  1;
+  --callout-radius: 0;
+  --callout-padding: 0;
+  --callout-title-padding:  var(--size-4-4) var(--size-4-4);
+  --callout-content-padding:  var(--size-4-2) var(--size-4-4);
+}
+.callout[data-callout="o-example"] .callout-title-inner {
+  color: var(--text-normal);
+}
+.callout[data-callout="o-example"] .callout-content {
+  background-color: var(--background-primary-alt)
+}
+
+.callout[data-callout="o-quote"], .callout[data-callout="o-cite"] {
+  --callout-color: 158, 158, 158;
+  --callout-icon: quote-glyph;
+  --callout-border-width:  0 0 0 4px;
+  --callout-border-opacity:  1;
+  --callout-radius: 0;
+  --callout-padding: 0;
+  --callout-title-padding:  var(--size-4-4) var(--size-4-4);
+  --callout-content-padding:  var(--size-4-2) var(--size-4-4);
+}
+.callout[data-callout="o-quote"] .callout-title-inner, .callout[data-callout="o-cite"] .callout-title-inner {
+  color: var(--text-normal);
+}
+.callout[data-callout="o-quote"] .callout-content, .callout[data-callout="o-cite"] .callout-content {
+  background-color: var(--background-primary-alt)
+}
