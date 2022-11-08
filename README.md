@@ -11,7 +11,7 @@ Bring back the original style for Obsidian callouts!
 
 # Features
 
-Do it how you like it.
+Do it how you like.
 
 You can either replace the new ones to the old ones, or just ad the old ones as extra callouts!
 
