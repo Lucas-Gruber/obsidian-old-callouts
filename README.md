@@ -15,12 +15,6 @@ Do it how you like it.
 
 You can either replace the new ones to the old ones, or just ad the old ones as extra callouts!
 
-# Showcase
-
-<div align="center">
-  <img src="./.media/comparison.png">
-</div>
-
 # How to use:
 
 ## 1. As an extra option:
@@ -30,5 +24,11 @@ Simply copy the `old-callouts-extra.css` file in the .obsidian/snippets folder i
 ## 2. Replace default callouts
 
 do exact the same but with the file: `old-callouts.css`
+
+# Showcase
+
+<div align="center">
+  <img src="./.media/comparison.png">
+</div>
 
 < / > with 💛 by Lucas Gruber
